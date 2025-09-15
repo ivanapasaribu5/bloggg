@@ -1,0 +1,73 @@
+/* Mengganti warna primer default Bootstrap */
+:root {
+  --bs-primary: #34568B; /* Warna biru yang lebih elegan */
+  --bs-primary-rgb: 52, 86, 139;
+}
+
+/* Gaya untuk blog cards */
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+/* Gaya untuk menyorot link navigasi yang aktif */
+.nav-link.active {
+    font-weight: bold;
+}
+
+/* Gaya untuk membuat footer menempel di bawah */
+body.d-flex {
+    display: flex;
+    flex-direction: column;
+}
+
+.min-vh-100 {
+    min-height: 100vh;
+}
+
+.d-flex {
+    display: flex;
+    flex-direction: column;
+}
+
+.mt-auto {
+    margin-top: auto;
+}
+
+/* Gaya untuk detail blog (dari file detail-blog.html) */
+.img-fluid.rounded {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Gaya umum untuk semua halaman */
+body {
+    background-color: #f8f9fa; /* Contoh gaya tambahan */
+}
+
+/* Gaya khusus untuk halaman "Tentang Saya" */
+.rounded-circle.img-fluid {
+    width: 200px; /* Atur ukuran gambar agar konsisten */
+    height: 200px;
+    object-fit: cover;
+}
+
+.shadow {
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important; /* Menambahkan bayangan */
+}
+
+
+/* Menambahkan aturan CSS untuk menyamakan font pada deskripsi */
+.deskripsi-text {
+    font-family: Arial, sans-serif; /* Ganti dengan font yang diinginkan */
+    font-size: 16px; /* Ganti dengan ukuran font yang diinginkan */
+    line-height: 1.6;
+    color: #333; /* Warna teks */
+    text-align: justify;
+}
+
+/* Aturan baru untuk meratakan teks di dalam konten blog */
+article p {
+    text-align: justify;
+}
